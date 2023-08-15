@@ -1,0 +1,5 @@
+n = list(map(int,input("Enter values by seperating space between values : ").split()))
+print("Original list: ", n)
+output = map(lambda x: x**2 , n) 
+print("\nsquare of list numbers:")
+print(list(output))
